@@ -1,3 +1,4 @@
 * to run jupyter use the command -> "jupyter notebook --ip=127.0.0.1"
 * to give permission to the user for conda -> "sudo chown 1000:1000 /opt/conda"
 * comment out vscode user in devcontainer.json so above permission works
+* pip list --format=freeze > requirements.txt # this is becaause conda does a wierd @file that will mess up production deployemnt
